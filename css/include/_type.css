@@ -1,0 +1,15 @@
+/*
+	Typography
+*/
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: darkblue;
+}
+
+p {
+	font-size: 12px;
+}

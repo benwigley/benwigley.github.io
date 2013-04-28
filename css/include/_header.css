@@ -1,0 +1,51 @@
+/*
+	Header
+*/
+
+header {
+	line-height: 40px;
+	background-color: #fff;
+	text-align: right;
+	border-bottom: solid 1px #ccc;
+}
+header .container {
+	position: relative;
+	margin-bottom: -1px;
+}
+
+.nav-link {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 10px;
+	margin: 0 10px;
+	color: #555657;
+	font-size: 12px;
+	border: solid 0 #ccc;
+}
+.nav-link:hover,
+.nav-link.active {
+	color: #000;
+	margin: 0 9px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	background-color: #efefef;
+}
+
+#logo-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#logo-container a {
+	color: #444;
+	font-size: 20px;
+}
+#logo-container a:hover {
+	color: #000;
+}
+#logo-container small {
+	margin-left: 5px;
+	color: #ccc;
+	font-size: 14px;
+	text-transform: uppercase;
+}
