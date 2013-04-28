@@ -4,11 +4,11 @@
 */
 
 /* base */
-@import url('include/_boilerplate.css');
-@import url('include/_layout.css');
-@import url('include/_type.css');
-@import url('include/_forms.css');
+@import url('include/boilerplate.css');
+@import url('include/layout.css');
+@import url('include/type.css');
+@import url('include/forms.css');
 
 /* components */
-@import url('include/_buttons.css');
-@import url('include/_header.css');
+@import url('include/buttons.css');
+@import url('include/header.css');
