@@ -22,6 +22,7 @@ header .container {
 	color: #555657;
 	font-size: 12px;
 	border: solid 0 #ccc;
+	transition: background-color 100ms;
 }
 .nav-link:hover,
 .nav-link.active {
@@ -35,7 +36,7 @@ header .container {
 #logo-container {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 10px;
 }
 #logo-container a {
 	color: #444;

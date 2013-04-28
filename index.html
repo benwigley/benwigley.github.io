@@ -26,7 +26,7 @@
                     <a href="/">Ben Wigley <small>Projects</small></a>
                 </div>
                 <nav>
-                    <a href="/button-select.html" class="nav-link active">Button Select</a>
+                    <a href="/button-select.html" class="nav-link">Button Select</a>
                     <a href="/scrollbrakes.html" class="nav-link">Scrollbrakes</a>
                     <a href="/input-resizer.html" class="nav-link">Input Resizer</a>
                 </nav>
@@ -35,68 +35,30 @@
 
         <div id="content">
         	<div class="container">
-	            <h1>Button Select</h1>
-	            <p><em>A jQuery plugin for styling native cross-browser select menus.</em></p>
-
-	            <a href="http://github.com/benwigley/button-select/archive/master.zip" class="button button-blue" rel="nofollow" title="Download button-select as a zip file">
-	            	<span class="mini-icon mini-icon-download"></span>
-	            	Download as a ZIP
-	            </a>
+	            <h1>Projects</h1>
+	            <p><em>Projects documentation and demos from <a href="//github.com/benwigley">Ben Wigley</a>.</em></p>
 
 	            <section>
-		            <h2 class="section-heading">Usage:</h2>
-		            <h3>Options</h3>
-		            <dl>
-		            	<dt>buttonClass <span class="default">default: 'button'</span></dt>
-		            	<dd>Default button styling class</dd>
+	            	<div class="list-brick">
+	            		<div class="list-brick-inner">
+		            		<h4><a href="/button-select.html">Button Select</a></h4>
+		            		<p>Use your custom button class to style your select menus. The select menus will maintain their native dropdown menu.</p>
+		            	</div>
+	            	</div>
 
-		            	<dt>class <span class="default">default: ''</span></dt>
-		            	<dd>Extra custom classes to add to the select button</dd>
+	            	<div class="list-brick">
+	            		<div class="list-brick-inner">
+		            		<h4><a href="/scrollbrakes.html">Scrollbrakes</a></h4>
+		            		<p>Prevent a scrollable div from scrolling the page behind it with this simple jQuery plugin.</p>
+		            	</div>
+	            	</div>
 
-		            	<dt>arrowClass <span class="default">default: ''</span></dt>
-		            	<dd>Custom class to apply to the arrow icon. This can be useful if you want to use a font-icon as the caret. e.g. 'icon-chevron-down</dd>
-
-		            	<dt>arrowUpDown <span class="default">default: false</span></dt>
-		            	<dd>If true, adds two arrow to the select menu (up and down) Note: This does nothing if you give 'arrowClass' a value.</dd>
-		            </dl>
-		        </section>
-
-	            <section>
-		            <h2 class="section-heading">Examples:</h2>
-		            <h3>Select styling using a custom class</h3>
-		            <p>If you use a custom button styling on your site, you can use it for styling select menus too.</p>
-
-		            <h3></h3>
-		            <select class="button-select custom">
-		            	<option value="">Chocolate bars...</option>
-		            	<option value="chrunchie">Chrunchie</option>
-		            	<option value="moro">Moro</option>
-		            	<option value="snickers">Snickers</option>
-		            	<option value="mars">Mars</option>
-		            </select>
-<pre>
-$('select.custom').buttonSelect({
-	buttonClass: 'button'
-});
-</pre>
-		        </section>
-
-	            <section>
-		            <h3>Select styling using Bootstrap</h3>
-		            <p>If you don't use a custom button class, you can always use <a href="http://twitter.github.io/bootstrap">bootstrap</a>.</p>
-
-		            <select class="button-select bootstrap">
-		            	<option value="">Citrus...</option>
-		            	<option value="lemons">Lemons</option>
-		            	<option value="oranges">Oranges</option>
-		            	<option value="limes">Limes</option>
-		            	<option value="pineapple">Pineapple</option>
-		            </select>
-<pre>
-$('select').buttonSelect({
-	buttonClass: 'btn' // This is the button class that bootstrap uses
-});
-</pre>
+	            	<div class="list-brick">
+	            		<div class="list-brick-inner">
+		            		<h4><a href="/input-resizer.html">Input Resizer</a></h4>
+		            		<p>Dynamic input widths. A jQuery plugin that makes a text input's width correcspond to its content.</p>
+		            	</div>
+	            	</div>
 		        </section>
             </div>
         </div>

@@ -1,0 +1,26 @@
+/*
+	List Bricks
+	---------------------------
+*/
+
+.list-brick {
+	display: block;
+	border-top: solid 1px #ddd;
+	vertical-align: top;
+}
+.list-brick-inner {
+	padding: 10px 0;
+	border-top: solid 1px #fff;
+}
+.list-brick:last-child {
+	border-bottom: solid 1px #fff;
+}
+.list-brick:last-child .list-brick-inner {
+	border-bottom: solid 1px #ddd;
+}
+
+.list-brick h4,
+.list-brick p {
+	margin: 0 0 5px;
+	color: #222;
+}
