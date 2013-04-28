@@ -1,5 +1,6 @@
 /*
 	Header
+	---------------------------
 */
 
 header {
@@ -17,7 +18,7 @@ header .container {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 10px;
-	margin: 0 10px;
+	margin: 0 5px;
 	color: #555657;
 	font-size: 12px;
 	border: solid 0 #ccc;
@@ -25,7 +26,7 @@ header .container {
 .nav-link:hover,
 .nav-link.active {
 	color: #000;
-	margin: 0 9px;
+	margin: 0 4px;
 	border-left-width: 1px;
 	border-right-width: 1px;
 	background-color: #efefef;

@@ -1,12 +1,21 @@
 /*
 	Layout
+	---------------------------
 */
 
 html {
 	background: #efefef;
 }
 
+body {
+	padding-bottom: 50px;
+}
+
 .container {
 	width: 960px;
 	margin: 0 auto;
+}
+
+section {
+	margin: 40px 0;
 }

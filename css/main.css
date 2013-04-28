@@ -1,9 +1,14 @@
 /*
-    Include styles
+    Includes file
+    ---------------------------
 */
 
+/* base */
 @import url('include/_boilerplate.css');
 @import url('include/_layout.css');
 @import url('include/_type.css');
+@import url('include/_forms.css');
 
+/* components */
+@import url('include/_buttons.css');
 @import url('include/_header.css');

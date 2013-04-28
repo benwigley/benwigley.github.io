@@ -9,11 +9,13 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/vendor/button-select.css">
+        <link rel="stylesheet" href="css/vendor/bootstrap-buttons.css">
         <link rel="stylesheet" href="css/main.css">
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -31,19 +33,78 @@
             </div>
         </header>
 
+        <div id="content">
+        	<div class="container">
+	            <h1>Button Select</h1>
+	            <p><em>A jQuery plugin for styling native cross-browser select menus.</em></p>
+
+	            <a href="http://github.com/benwigley/button-select/archive/master.zip" class="button button-blue" rel="nofollow" title="Download button-select as a zip file">
+	            	<span class="mini-icon mini-icon-download"></span>
+	            	Download as a ZIP
+	            </a>
+
+	            <section>
+		            <h2 class="section-heading">Usage:</h2>
+		            <h3>Options</h3>
+		            <dl>
+		            	<dt>buttonClass <span class="default">default: 'button'</span></dt>
+		            	<dd>Default button styling class</dd>
+
+		            	<dt>class <span class="default">default: ''</span></dt>
+		            	<dd>Extra custom classes to add to the select button</dd>
+
+		            	<dt>arrowClass <span class="default">default: ''</span></dt>
+		            	<dd>Custom class to apply to the arrow icon. This can be useful if you want to use a font-icon as the caret. e.g. 'icon-chevron-down</dd>
+
+		            	<dt>arrowUpDown <span class="default">default: false</span></dt>
+		            	<dd>If true, adds two arrow to the select menu (up and down) Note: This does nothing if you give 'arrowClass' a value.</dd>
+		            </dl>
+		        </section>
+
+	            <section>
+		            <h2 class="section-heading">Examples:</h2>
+		            <h3>Select styling using a custom class</h3>
+		            <p>If you use a custom button styling on your site, you can use it for styling select menus too.</p>
+
+		            <h3></h3>
+		            <select class="button-select custom">
+		            	<option value="">Chocolate bars...</option>
+		            	<option value="chrunchie">Chrunchie</option>
+		            	<option value="moro">Moro</option>
+		            	<option value="snickers">Snickers</option>
+		            	<option value="mars">Mars</option>
+		            </select>
+<pre>
+$('select.custom').buttonSelect({
+	buttonClass: 'button'
+});
+</pre>
+		        </section>
+
+	            <section>
+		            <h3>Select styling using Bootstrap</h3>
+		            <p>If you don't use a custom button class, you can always use <a href="http://twitter.github.io/bootstrap">bootstrap</a>.</p>
+
+		            <select class="button-select bootstrap">
+		            	<option value="">Citrus...</option>
+		            	<option value="lemons">Lemons</option>
+		            	<option value="oranges">Oranges</option>
+		            	<option value="limes">Limes</option>
+		            	<option value="pineapple">Pineapple</option>
+		            </select>
+<pre>
+$('select').buttonSelect({
+	buttonClass: 'btn' // This is the button class that bootstrap uses
+});
+</pre>
+		        </section>
+            </div>
+        </div>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <script src="js/vendor/button-select.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>
