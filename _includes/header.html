@@ -1,0 +1,15 @@
+<header>
+	<div class="container">
+		<div id="logo-container">
+			<a href="/">Ben Wigley <small></small></a>
+		</div>
+		<nav>
+    {% for link in site.navigation %}
+      <a href="{{ link.url }}" 
+        class="nav-link{% if link.url == page.url %} active{% endif %}">
+        {{ link.title }}
+       </a>
+    {% endfor %}
+		</nav>
+	</div>
+</header>

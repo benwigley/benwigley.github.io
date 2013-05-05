@@ -12,8 +12,8 @@ a:hover {
 	color: #E45F14;
 }
 
-p {
-	font-size: 12px;
+p, ul, ol, dl {
+	font-size: 14px;
 }
 
 

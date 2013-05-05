@@ -1,1 +1,6 @@
 *.log
+.DS_STORE
+.DS_Store
+
+# Jekyll
+_site
