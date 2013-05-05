@@ -7,6 +7,7 @@
 @import url('vendor/normalize.css');
 @import url('vendor/boilerplate.css');
 
+@import url('include/icons.css');
 @import url('include/layout.css');
 @import url('include/type.css');
 @import url('include/forms.css');
