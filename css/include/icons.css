@@ -3,18 +3,18 @@
   ---------------------------
 */
 
-.home-icons a {
+.social-icons a {
   font-size: 30px;
-  margin-left: 2px;
+  margin-left: 10px;
 }
-.home-icons a:first-child {
+.social-icons a:first-child {
   margin-left: 0;
 }
-.home-icons i:before {
-  -webkit-transition: color 120ms;
-  -moz-transition: color 120ms;
-  -o-transition: color 120ms;
-  transition: color 120ms;
+.social-icons i:before {
+  -webkit-transition: color 320ms;
+  -moz-transition: color 320ms;
+  -o-transition: color 320ms;
+  transition: color 320ms;
 }
 
 @font-face {
@@ -28,9 +28,9 @@
   font-style: normal;
 }
 
-.icon-twitter, .icon-twitter-2, 
-.icon-linkedin, .icon-linkedin-2, 
-.icon-github, .icon-github-2 
+.icon-twitter, .icon-twitter-2,
+.icon-linkedin, .icon-linkedin-2,
+.icon-github, .icon-github-2
 {
   font-family: 'benwigley';
   speak: none;

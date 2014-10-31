@@ -4,17 +4,47 @@
 */
 
 header {
-	line-height: 40px;
-	background-color: #fff;
 	text-align: right;
 	border-bottom: solid 1px #ccc;
+	background: #2A6CB8 url('/img/header-bg.jpg') center center;
+	background-size: cover;
 }
 header .container {
 	position: relative;
-	margin-bottom: -1px;
+	height: 400px;
+}
+header .social-icons {
+	position: absolute;
+	bottom: 50px;
+	right: 10px;
+}
+header .social-icons a i:before {
+	color: #000;
+}
+header .social-icons a:hover i:before {
+	color: white;
 }
 
-.nav-link {
+#logo-container {
+	position: absolute;
+	bottom: 50px;
+	left: 10px;
+}
+#logo-container a {
+	color: #fff;
+	font-size: 36px;
+}
+/*#logo-container a:hover {
+	color: rgba(255, 255, 255, .8);
+}*/
+#logo-container small {
+	margin-left: 5px;
+	color: #ccc;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+/*.nav-link {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 10px;
@@ -31,23 +61,4 @@ header .container {
 	border-left-width: 1px;
 	border-right-width: 1px;
 	background-color: #efefef;
-}
-
-#logo-container {
-	position: absolute;
-	top: 0;
-	left: 10px;
-}
-#logo-container a {
-	color: #444;
-	font-size: 20px;
-}
-#logo-container a:hover {
-	color: #000;
-}
-#logo-container small {
-	margin-left: 5px;
-	color: #ccc;
-	font-size: 14px;
-	text-transform: uppercase;
-}
+}*/

@@ -3,6 +3,10 @@
 	---------------------------
 */
 
+html, button, input, select, textarea {
+	font-family: sans-serif;
+}
+
 a {
 	color: #0475CE;
 	transition: color 80ms;
@@ -26,6 +30,7 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 2.2em;
+	margin: 2.5em 0 2em;
 }
 h2 {
 	font-size: 1.8em;
