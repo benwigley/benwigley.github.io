@@ -4,3 +4,5 @@
 
 # Jekyll
 _site
+*.sublime-project
+*.sublime-workspace

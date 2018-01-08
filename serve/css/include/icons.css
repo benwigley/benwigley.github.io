@@ -1,0 +1,91 @@
+/*
+  Icons
+  ---------------------------
+*/
+
+.social-icons a {
+  font-size: 30px;
+  margin-left: 10px;
+}
+.social-icons a:first-child {
+  margin-left: 0;
+}
+.social-icons i:before {
+  -webkit-transition: color 320ms;
+  -moz-transition: color 320ms;
+  -o-transition: color 320ms;
+  transition: color 320ms;
+}
+
+@font-face {
+  font-family: 'benwigley';
+  src:url('../fonts/benwigley.eot');
+  src:url('../fonts/benwigley.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/benwigley.woff') format('woff'),
+    url('../fonts/benwigley.ttf') format('truetype'),
+    url('../fonts/benwigley.svg#benwigley') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-twitter, .icon-twitter-2,
+.icon-linkedin, .icon-linkedin-2,
+.icon-github, .icon-github-2
+{
+  font-family: 'benwigley';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.icon-twitter:before {
+  content: "\e000";
+}
+.icon-twitter-2:before {
+  content: "\e002";
+}
+.icon-twitter:before,
+.icon-twitter-2:before {
+  color: #0099EC;
+}
+.icon-twitter:hover:before,
+.icon-twitter-2:hover:before {
+  color: #0088D1;
+}
+
+
+.icon-linkedin:before {
+  content: "\e001";
+}
+.icon-linkedin-2:before {
+  content: "\e003";
+}
+.icon-linkedin:before,
+.icon-linkedin-2:before {
+  color: #007bb6;
+}
+.icon-linkedin:hover:before,
+.icon-linkedin-2:hover:before {
+  color: #006392;
+}
+
+
+.icon-github:before {
+  content: "\e004";
+}
+.icon-github-2:before {
+  content: "\e005";
+}
+.icon-github:before,
+.icon-github-2:before {
+  color: #CCC;
+}
+.icon-github:hover:before,
+.icon-github-2:hover:before {
+  color: #AAA;
+}

@@ -1,0 +1,81 @@
+/*
+	Buttons
+	---------------------------
+*/
+
+.button,
+a.button {
+	display: inline-block;
+	margin: 0;
+	padding: 0px 10px;
+	color: #333;
+	background-color: #dfdfdf;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0px 1px 0 #efefef;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, .10);
+	border-bottom-color: rgba(0, 0, 0, .20);
+	cursor: pointer;
+	outline: none;
+	user-select: none;
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.3);
+
+	/* gradient */
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: 	 -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: 	  -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: 	   -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: 	linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+}
+.button-blue,
+a.button-blue {
+	color: #fff;
+	background-color: #4D8EF0;
+	border: 1px solid rgba(0, 0, 0, .20);
+	border-bottom-color: rgba(0, 0, 0, .30);
+	text-shadow: 0px -1px 0 rgba(0 ,0 ,0 ,.5);
+}
+
+.button:hover {
+	/* darken gradient */
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.0) 100%);
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.0) 100%);
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.0) 100%);
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.0) 100%);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.0) 100%);
+}
+
+/* Active state */
+.button.active,
+.button:active {
+	/* dark inset */
+	box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.05);
+	/* darken gradient */
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Focus state */
+.button:focus {
+	outline: none;
+}
+
+/* Disabled state */
+.button.disabled,
+.button[disabled],
+.button.disabled:active,
+.button[disabled]:active {
+	cursor: default;
+	background-color: #ddd;
+	background-image: none;
+	opacity 0.85;
+	box-shadow none;
+}
