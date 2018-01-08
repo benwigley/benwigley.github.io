@@ -11,21 +11,19 @@ navigation:
 
 # Jekyll config
 
-safe:        false
-auto:        true
-server:      true
-server_port: 4000
+safe:       false
+port:       4000
 baseurl:    /
-url: http://localhost:4000
+url:        http://localhost:4000
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins:     []
 
 future:      true
 lsi:         false
-pygments:    false
-markdown:    maruku
+highlighter: null
+markdown:    kramdown
 permalink:   date
 
 maruku:
@@ -46,8 +44,8 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
-  
+  enable_coderay: false
+
   coderay:
     coderay_wrap: div
     coderay_line_numbers: inline
