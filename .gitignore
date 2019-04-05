@@ -4,5 +4,9 @@
 
 # Jekyll
 _site
+.jekyll-metadata
+
+# Editors
 *.sublime-project
 *.sublime-workspace
+*.code-workspace
