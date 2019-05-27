@@ -23,6 +23,11 @@ View the server on http://localhost:4000
 
 ## Production Environment
 
+I installed ruby by following this article:
+https://computingforgeeks.com/how-to-install-jekyll-on-ubuntu-18-04/
+
+Install jeykll
+
 	sudo apt-get update
 	sudo apt-get install jekyll
 
