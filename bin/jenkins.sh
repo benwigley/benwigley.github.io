@@ -23,7 +23,7 @@ OLD_PATH=${PRODUCTION_PATH}-old
 # -------------
 
 echo "LOG: Running Jekyll";
-bundle exec jekyll build
+jekyll build
 
 
 # Deploy project
