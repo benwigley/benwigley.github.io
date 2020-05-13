@@ -1,6 +1,6 @@
 # This is the script that gets run with every jenkins deployment
 #
-# View jenkings at: http://toastrooster.com:8080/
+# View jenkings at: http://jenkins.toastrooster.com:8080/
 
 
 # Environment Vars
@@ -23,7 +23,7 @@ OLD_PATH=${PRODUCTION_PATH}-old
 # -------------
 
 echo "LOG: Running Jekyll";
-jekyll build
+bundle exec jekyll build
 
 
 # Deploy project

@@ -11,7 +11,7 @@ header {
 }
 header .container {
 	position: relative;
-	height: 400px;
+	height: 320px;
 }
 header .social-icons {
 	position: absolute;
@@ -32,9 +32,13 @@ header .social-icons a:hover i:before {
 	color: #fff;
 	font-size: 36px;
 }
-/*#logo-container a:hover {
+#logo-container a {
+	color: #FFF;
+	font-weight: 300;
+}
+#logo-container a:hover {
 	color: rgba(255, 255, 255, .8);
-}*/
+}
 #logo-container small {
 	margin-left: 5px;
 	color: #ccc;
