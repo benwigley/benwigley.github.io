@@ -22,6 +22,9 @@ OLD_PATH=${PRODUCTION_PATH}-old
 # Build project
 # -------------
 
+echo "LOG: Running bundle install";
+bundle install
+
 echo "LOG: Running Jekyll";
 jekyll build
 
