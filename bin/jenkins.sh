@@ -26,7 +26,7 @@ echo "LOG: Running bundle install";
 bundle install
 
 echo "LOG: Running Jekyll";
-jekyll build
+bundle exec jekyll build
 
 
 # Deploy project
