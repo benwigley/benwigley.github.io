@@ -27,6 +27,7 @@
 	height: 100px;
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: top center;
 }
 .list-brick .brick-right {
 	margin-left: 120px;
